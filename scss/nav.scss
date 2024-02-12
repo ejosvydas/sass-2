@@ -1,0 +1,19 @@
+nav {
+    background: $green;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 0;
+  
+    a {
+      text-decoration: none;
+      color: $violet;
+      transition: 0.5s;
+  
+      &:hover {
+        color: black;
+      }
+    }
+  }
